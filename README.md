@@ -3,32 +3,32 @@
 using Atom Package Manager (apm) to install packages.
 
 #### Base linter
-apm install linter
-apm install linter-ruby
-apm install linter-scss-lint
-apm install linter-coffeelint
-apm install linter-rubocop
-apm install linter-haml
+- apm install linter
+- apm install linter-ruby
+- apm install linter-scss-lint
+- apm install linter-coffeelint
+- apm install linter-rubocop
+- apm install linter-haml
 
 #### nicer code
-apm install atom-beautify
-apm install atom-css-comb
+- apm install atom-beautify
+- apm install atom-css-comb
 
 #### testing
-apm install ruby-test
-apm install cucumber
-apm install cucumber-step # open the step definition
+- apm install ruby-test
+- apm install cucumber
+- apm install cucumber-step # open the step definition
 
 #### language highlighting
-apm install language-rspec
-apm install language-haml
-apm install language-docker
+- apm install language-rspec
+- apm install language-haml
+- apm install language-docker
 
 #### other
-apm install minimap # Shows you a tiny preview of the file on the right
-apm install Sublime-Style-Column-Selection # Allows you to select columns
-apm install toggle-quotes
-apm install trailing-spaces
+- apm install minimap # Shows you a tiny preview of the file on the right
+- apm install Sublime-Style-Column-Selection # Allows you to select columns
+- apm install toggle-quotes
+- apm install trailing-spaces
 
 #### Install dependencies for some of the packages.
 
