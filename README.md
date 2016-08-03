@@ -1,6 +1,6 @@
 # setting-up-atom-for-rails-development
 
-using Atom Package Manager (apm) to install packages.
+Using Atom Package Manager (apm) to install packages.
 
 #### Base linter
 - apm install linter
@@ -10,21 +10,21 @@ using Atom Package Manager (apm) to install packages.
 - apm install linter-rubocop
 - apm install linter-haml
 
-#### nicer code
+#### Nicer Code
 - apm install atom-beautify
 - apm install atom-css-comb
 
-#### testing
+#### Testing
 - apm install ruby-test
 - apm install cucumber
 - apm install cucumber-step # open the step definition
 
-#### language highlighting
+#### Language Highlighting
 - apm install language-rspec
 - apm install language-haml
 - apm install language-docker
 
-#### other
+#### Other
 - apm install minimap # Shows you a tiny preview of the file on the right
 - apm install Sublime-Style-Column-Selection # Allows you to select columns
 - apm install toggle-quotes
@@ -40,7 +40,7 @@ using Atom Package Manager (apm) to install packages.
 
 #### Edit Atom config (~/.atom/config.cson).
 
-"ruby-test":
+`"ruby-test":
   specFramework: "rspec"
   rspecAllCommand: "bundle exec rspec --tty spec"
   rspecFileCommand: "bundle exec rspec --tty {relative_path}"
@@ -50,3 +50,4 @@ using Atom Package Manager (apm) to install packages.
   cucumberSingleCommand: "bundle exec cucumber --color {relative_path}:{line_number}"
 "linter-rubocop":
   command: "/Users/[yourname]/.rbenv/shims/rubocop"
+`
