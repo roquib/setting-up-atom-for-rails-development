@@ -1,4 +1,4 @@
-# setting-up-atom-for-rails-development
+# Setting up Atom for Rails development
 
 Using Atom Package Manager (apm) to install packages.
 
@@ -40,7 +40,8 @@ Using Atom Package Manager (apm) to install packages.
 
 #### Edit Atom config (~/.atom/config.cson).
 
-`"ruby-test":
+```
+"ruby-test":
   specFramework: "rspec"
   rspecAllCommand: "bundle exec rspec --tty spec"
   rspecFileCommand: "bundle exec rspec --tty {relative_path}"
@@ -50,4 +51,4 @@ Using Atom Package Manager (apm) to install packages.
   cucumberSingleCommand: "bundle exec cucumber --color {relative_path}:{line_number}"
 "linter-rubocop":
   command: "/Users/[yourname]/.rbenv/shims/rubocop"
-`
+```
